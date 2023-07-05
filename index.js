@@ -1,18 +1,15 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Code to bind event listener
-  });
-  
-  function addingEventListener() {
-    document.addEventListener('DOMContentLoaded', function() {
-      const button = document.querySelector('#input');
-  
-      function clickAlert() {
-        alert('Button clicked!');
-      }
-  
-      button.addEventListener('click', clickAlert);
-    });
+function addingEventListener() {
+  const button = document.querySelector('#button');
+
+  function clickAlert() {
+    alert('Button clicked!');
   }
-  
+
+  button.addEventListener('click', clickAlert);
+}
+
+document.addEventListener('DOMContentLoaded', function() {
   addingEventListener();
+});
+
    
